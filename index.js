@@ -29,10 +29,10 @@ client.on('message', msg => {
 
     }
 
-    if (msg.content.startsWith('p! play')){
-        msg.channel.send('Dats wack listen to this instead')
-        msg.channel.send('p! play https://www.youtube.com/watch?v=XeQUlr4Xc3s')
-    }
+    // if (msg.content.startsWith('p! play')){
+    //     msg.channel.send('Dats wack listen to this instead')
+    //     msg.channel.send('p! play https://www.youtube.com/watch?v=XeQUlr4Xc3s')
+    // }
 })
 
 client.login(process.env.BOT_TOKEN);
